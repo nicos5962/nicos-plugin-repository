@@ -1,6 +1,6 @@
 <extensions>
   <plugins>
-    <plugin name="PlaySHN" category="tools" creator="nicos" icon="https://raw.githubusercontent.com/nicos5962/playSHN/HTML/EN/plugins/playSHN/html/images/icon.png" link="https://github.com/nicos5962/PlaySHN" maxTarget="*" minTarget="7.9" url="https://github.com/nicos5962/PlaySHN/archive/refs/tags/v1.0.zip" version="1.0">
+    <plugin name="PlaySHN" category="tools" creator="nicos" icon="https://raw.githubusercontent.com/nicos5962/PlaySHN/refs/heads/main/HTML/EN/plugins/PlaySHN/html/images/icon.png" link="https://github.com/nicos5962/PlaySHN" maxTarget="*" minTarget="7.9" url="https://github.com/nicos5962/PlaySHN/archive/refs/tags/v1.0.zip" version="1.0">
       <desc lang="EN">Play SHN files.</desc>
       <title lang="EN">PlaySHN</title>
     </plugin>
