@@ -4,6 +4,10 @@
       <desc lang="EN">Play SHN files.</desc>
       <title lang="EN">PlaySHN</title>
     </plugin>
+    <plugin name="PlayFLAC" category="tools" creator="nicos" icon="https://raw.githubusercontent.com/nicos5962/PlayFLAC/refs/heads/main/HTML/EN/plugins/PlayFLAC/html/images/icon.png" link="https://github.com/nicos5962/PlayFLAC" maxTarget="*" minTarget="7.9" url="https://github.com/nicos5962/PlayFLAC/releases/download/v1.0/PlayFLAC-v1.0.zip" version="1.0">
+      <desc lang="EN">Play FLAC files.</desc>
+      <title lang="EN">PlayFLAC</title>
+    </plugin>
   </plugins>
 </extensions>
  
