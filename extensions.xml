@@ -1,13 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <extensions>
+  <details>
+    <title lang="EN">nicos plugin repository</title>
+  </details>
   <plugins>
-    <plugin name="PlaySHN" category="tools" creator="nicos" icon="https://raw.githubusercontent.com/nicos5962/PlaySHN/refs/heads/main/HTML/EN/plugins/PlaySHN/html/images/icon.png" link="https://github.com/nicos5962/PlaySHN" maxTarget="*" minTarget="7.9" url="https://github.com/nicos5962/PlaySHN/releases/download/v1.0/PlaySHN.zip" version="1.0">
-      <desc lang="EN">Play SHN files.</desc>
-      <title lang="EN">PlaySHN</title>
-    </plugin>
-    <plugin name="PlayFLAC" category="tools" creator="nicos" icon="https://raw.githubusercontent.com/nicos5962/PlayFLAC/refs/heads/main/HTML/EN/plugins/PlayFLAC/html/images/icon.png" link="https://github.com/nicos5962/PlayFLAC" maxTarget="*" minTarget="7.9" url="https://github.com/nicos5962/PlayFLAC/releases/download/v1.0/PlayFLAC-v1.0.zip" version="1.0">
-      <desc lang="EN">Play FLAC files.</desc>
-      <title lang="EN">PlayFLAC</title>
+    <plugin name="PlayDVD" version="1.6.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="efd1d50d61de0ccd44174dbaea6132fca97614d6" link="https://github.com/nicos5962/PlayDVD" icon="https://raw.githubusercontent.com/nicos5962/PlayDVD/main/HTML/EN/plugins/PlayDVD/html/images/icon.png" url="https://github.com/nicos5962/PlayDVD/releases/download/v1.6.0/PlayDVD-1.6.0.zip">
+      <title lang="EN">Play DVD</title>
+      <desc lang="EN">Import DVDs and DVD ISO images into the Lyrion library and play their audio titles, with audio stream selection from the player UI. Requires ffmpeg, mplayer and lsdvd on the server.</desc>
     </plugin>
   </plugins>
 </extensions>
- 
