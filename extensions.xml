@@ -12,6 +12,10 @@
       <title lang="EN">Lyphile</title>
       <desc lang="EN">Lyphile skin, based on the Default skin.</desc>
     </plugin>
+    <plugin name="PlayAC3" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="67a8a3a0d056b3040005c95a7e58ede966819af4" link="https://github.com/nicos5962/PlayAC3" icon="https://raw.githubusercontent.com/nicos5962/PlayAC3/main/HTML/EN/plugins/PlayAC3/html/images/icon.svg" url="https://github.com/nicos5962/PlayAC3/releases/download/v1.0/PlayAC3-1.0.zip">
+      <title lang="EN">Play AC3</title>
+      <desc lang="EN">Play Dolby Digital (AC-3) files, with the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
     <plugin name="PlayAPE" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="d3d916f91731e3722dcf9aa20aff782b41f1b0da" link="https://github.com/nicos5962/PlayAPE" icon="https://raw.githubusercontent.com/nicos5962/PlayAPE/main/HTML/EN/plugins/PlayAPE/html/images/icon.svg" url="https://github.com/nicos5962/PlayAPE/releases/download/v1.0/PlayAPE-1.0.zip">
       <title lang="EN">Play APE</title>
       <desc lang="EN">Play APE with embedded CUE support and scanner-safe registration</desc>
@@ -43,6 +47,42 @@
     <plugin name="PlayMP4" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="a6a8d3a6fc70ba92fa14174ae52c5610dd59048f" link="https://github.com/nicos5962/PlayMP4" icon="https://raw.githubusercontent.com/nicos5962/PlayMP4/main/HTML/EN/plugins/PlayMP4/html/images/icon.svg" url="https://github.com/nicos5962/PlayMP4/releases/download/v1.0/PlayMP4-1.0.zip">
       <title lang="EN">Play MP4</title>
       <desc lang="EN">Play the audio of MP4 files that hold video, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration. MP4 files without video stay with core</desc>
+    </plugin>
+    <plugin name="PlayMPG" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="7006842fc5ec4d13564963d0b4a66b84af10663d" link="https://github.com/nicos5962/PlayMPG" icon="https://raw.githubusercontent.com/nicos5962/PlayMPG/main/HTML/EN/plugins/PlayMPG/html/images/icon.svg" url="https://github.com/nicos5962/PlayMPG/releases/download/v1.0/PlayMPG-1.0.zip">
+      <title lang="EN">Play MPG</title>
+      <desc lang="EN">Play the audio of MPEG program stream files, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayMTS" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="3b104adcdaa06eb976a2813ee620ae769b8053dc" link="https://github.com/nicos5962/PlayMTS" icon="https://raw.githubusercontent.com/nicos5962/PlayMTS/main/HTML/EN/plugins/PlayMTS/html/images/icon.svg" url="https://github.com/nicos5962/PlayMTS/releases/download/v1.0/PlayMTS-1.0.zip">
+      <title lang="EN">Play MTS</title>
+      <desc lang="EN">Play the audio of MPEG transport stream files, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlaySHN" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="273cac00a50bf528375af076b0aad44dd55c2545" link="https://github.com/nicos5962/PlaySHN" icon="https://raw.githubusercontent.com/nicos5962/PlaySHN/main/HTML/EN/plugins/PlaySHN/html/images/icon.svg" url="https://github.com/nicos5962/PlaySHN/releases/download/v1.1/PlaySHN-1.1.zip">
+      <title lang="EN">Play SHN</title>
+      <desc lang="EN">Play Shorten (SHN) files, with the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayTAK" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="9f0e3ac260d0d5dd4862c5b12a5d698c0e0af377" link="https://github.com/nicos5962/PlayTAK" icon="https://raw.githubusercontent.com/nicos5962/PlayTAK/main/HTML/EN/plugins/PlayTAK/html/images/icon.svg" url="https://github.com/nicos5962/PlayTAK/releases/download/v1.1/PlayTAK-1.1.zip">
+      <title lang="EN">Play TAK</title>
+      <desc lang="EN">Play Tom's lossless Audio Kompressor (TAK) files, with the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayTTA" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="3a1b0a5cc86fea533bbcce93acfd71fd4164007d" link="https://github.com/nicos5962/PlayTTA" icon="https://raw.githubusercontent.com/nicos5962/PlayTTA/main/HTML/EN/plugins/PlayTTA/html/images/icon.svg" url="https://github.com/nicos5962/PlayTTA/releases/download/v1.1/PlayTTA-1.1.zip">
+      <title lang="EN">Play TTA</title>
+      <desc lang="EN">Play The True Audio (TTA) files, with the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayWAV" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="fdcc8d83905cb64fbb633be9d14525c35da5b55c" link="https://github.com/nicos5962/PlayWAV" icon="https://raw.githubusercontent.com/nicos5962/PlayWAV/main/HTML/EN/plugins/PlayWAV/html/images/icon.svg" url="https://github.com/nicos5962/PlayWAV/releases/download/v1.1/PlayWAV-1.1.zip">
+      <title lang="EN">Play WAV</title>
+      <desc lang="EN">Keeps different releases of the same album apart using the Discogs release id, with scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayWEBM" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="46f0d64b246e09489eb3bfa57339381b5b845b08" link="https://github.com/nicos5962/PlayWEBM" icon="https://raw.githubusercontent.com/nicos5962/PlayWEBM/main/HTML/EN/plugins/PlayWEBM/html/images/icon.svg" url="https://github.com/nicos5962/PlayWEBM/releases/download/v1.0/PlayWEBM-1.0.zip">
+      <title lang="EN">Play WEBM</title>
+      <desc lang="EN">Play the audio of WebM files, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayWMA" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="77bfb0739d6a86dd482406cc8c5fd2f524543d62" link="https://github.com/nicos5962/PlayWMA" icon="https://raw.githubusercontent.com/nicos5962/PlayWMA/main/HTML/EN/plugins/PlayWMA/html/images/icon.svg" url="https://github.com/nicos5962/PlayWMA/releases/download/v1.1/PlayWMA-1.1.zip">
+      <title lang="EN">Play WMA</title>
+      <desc lang="EN">Keeps different releases of the same album apart using the Discogs release id, with scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayWVP" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="3615cb7b044745a9076bea45b8c98c574a9313e5" link="https://github.com/nicos5962/PlayWVP" icon="https://raw.githubusercontent.com/nicos5962/PlayWVP/main/HTML/EN/plugins/PlayWVP/html/images/icon.svg" url="https://github.com/nicos5962/PlayWVP/releases/download/v1.0/PlayWVP-1.0.zip">
+      <title lang="EN">Play WVP</title>
+      <desc lang="EN">Play WVP with embedded CUE support and scanner-safe registration</desc>
     </plugin>
   </plugins>
 </extensions>
