@@ -4,9 +4,45 @@
     <title lang="EN">nicos plugin repository</title>
   </details>
   <plugins>
-    <plugin name="PlayDVD" version="1.6.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="efd1d50d61de0ccd44174dbaea6132fca97614d6" link="https://github.com/nicos5962/PlayDVD" icon="https://raw.githubusercontent.com/nicos5962/PlayDVD/main/HTML/EN/plugins/PlayDVD/html/images/icon.png" url="https://github.com/nicos5962/PlayDVD/releases/download/v1.6.0/PlayDVD-1.6.0.zip">
+    <plugin name="Daphile" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="51e11d17a0641ec38d42784a90abb0d0414b609e" link="https://github.com/nicos5962/Daphile" icon="https://raw.githubusercontent.com/nicos5962/Daphile/main/HTML/EN/plugins/Daphile/html/images/daphile.png" url="https://github.com/nicos5962/Daphile/releases/download/v1.0/Daphile-1.0.zip">
+      <title lang="EN">Daphile</title>
+      <desc lang="EN">The plugin for Daphile extras.</desc>
+    </plugin>
+    <plugin name="Lyphile" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="4d2abf7936e1346c4059f7cefa4a061a87bfdf34" link="https://github.com/nicos5962/Lyphile" icon="https://raw.githubusercontent.com/nicos5962/Lyphile/main/HTML/EN/plugins/Lyphile/html/images/lyphile-icon.png" url="https://github.com/nicos5962/Lyphile/releases/download/v1.0/Lyphile-1.0.zip">
+      <title lang="EN">Lyphile</title>
+      <desc lang="EN">Lyphile skin, based on the Default skin.</desc>
+    </plugin>
+    <plugin name="PlayAPE" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="d3d916f91731e3722dcf9aa20aff782b41f1b0da" link="https://github.com/nicos5962/PlayAPE" icon="https://raw.githubusercontent.com/nicos5962/PlayAPE/main/HTML/EN/plugins/PlayAPE/html/images/icon.svg" url="https://github.com/nicos5962/PlayAPE/releases/download/v1.0/PlayAPE-1.0.zip">
+      <title lang="EN">Play APE</title>
+      <desc lang="EN">Play APE with embedded CUE support and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayAVI" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="408b49c55d77559bcdf44fd8d5af385f0568f986" link="https://github.com/nicos5962/PlayAVI" icon="https://raw.githubusercontent.com/nicos5962/PlayAVI/main/HTML/EN/plugins/PlayAVI/html/images/icon.svg" url="https://github.com/nicos5962/PlayAVI/releases/download/v1.0/PlayAVI-1.0.zip">
+      <title lang="EN">Play AVI</title>
+      <desc lang="EN">Play the audio of AVI files, with tags read by ffprobe, the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayDSD" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="1392168544b0fe6e86421a787721aa60c49dc78e" link="https://github.com/nicos5962/PlayDSD" icon="https://raw.githubusercontent.com/nicos5962/PlayDSD/main/HTML/EN/plugins/PlayDSD/html/images/icon.svg" url="https://github.com/nicos5962/PlayDSD/releases/download/v1.0/PlayDSD-1.0.zip">
+      <title lang="EN">Play DSD</title>
+      <desc lang="EN">Keeps different releases of the same album apart using the Discogs release id, and adds DSD (DSF and DFF) transcoding, with scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayDVD" version="1.7.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="e509872742bcc470902604f8232deac6febdb5fb" link="https://github.com/nicos5962/PlayDVD" icon="https://raw.githubusercontent.com/nicos5962/PlayDVD/main/HTML/EN/plugins/PlayDVD/html/images/icon.svg" url="https://github.com/nicos5962/PlayDVD/releases/download/v1.7.0/PlayDVD-1.7.0.zip">
       <title lang="EN">Play DVD</title>
-      <desc lang="EN">Import DVDs and DVD ISO images into the Lyrion library and play their audio titles, with audio stream selection from the player UI. Requires ffmpeg, mplayer and lsdvd on the server.</desc>
+      <desc lang="EN">Play the audio titles of DVDs (VIDEO_TS folders, ISO images and VOB files) from the library, with one track per DVD title and a scanner of its own that finds new, changed and deleted discs</desc>
+    </plugin>
+    <plugin name="PlayFLAC" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="e19dfa76cea4495908463a0d6649e2c4e6156633" link="https://github.com/nicos5962/PlayFLAC" icon="https://raw.githubusercontent.com/nicos5962/PlayFLAC/main/HTML/EN/plugins/PlayFLAC/html/images/icon.svg" url="https://github.com/nicos5962/PlayFLAC/releases/download/v1.1/PlayFLAC-1.1.zip">
+      <title lang="EN">Play FLAC</title>
+      <desc lang="EN">Keeps different releases of the same album apart using the Discogs release id, with scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayMKV" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="34f975acba707031ac3901080e3dd952a1e7873c" link="https://github.com/nicos5962/PlayMKV" icon="https://raw.githubusercontent.com/nicos5962/PlayMKV/main/HTML/EN/plugins/PlayMKV/html/images/icon.svg" url="https://github.com/nicos5962/PlayMKV/releases/download/v1.0/PlayMKV-1.0.zip">
+      <title lang="EN">Play MKV</title>
+      <desc lang="EN">Play the audio of Matroska files, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayMP3" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="1a331d7205e9352500d7e8055e738e2e61d561d4" link="https://github.com/nicos5962/PlayMP3" icon="https://raw.githubusercontent.com/nicos5962/PlayMP3/main/HTML/EN/plugins/PlayMP3/html/images/icon.svg" url="https://github.com/nicos5962/PlayMP3/releases/download/v1.1/PlayMP3-1.1.zip">
+      <title lang="EN">Play MP3</title>
+      <desc lang="EN">Keeps different releases of the same album apart using the Discogs release id, with scanner-safe registration</desc>
+    </plugin>
+    <plugin name="PlayMP4" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="a6a8d3a6fc70ba92fa14174ae52c5610dd59048f" link="https://github.com/nicos5962/PlayMP4" icon="https://raw.githubusercontent.com/nicos5962/PlayMP4/main/HTML/EN/plugins/PlayMP4/html/images/icon.svg" url="https://github.com/nicos5962/PlayMP4/releases/download/v1.0/PlayMP4-1.0.zip">
+      <title lang="EN">Play MP4</title>
+      <desc lang="EN">Play the audio of MP4 files that hold video, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration. MP4 files without video stay with core</desc>
     </plugin>
   </plugins>
 </extensions>
