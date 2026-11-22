@@ -20,7 +20,7 @@
       <title lang="EN">Play APE</title>
       <desc lang="EN">Play APE with embedded CUE support and scanner-safe registration</desc>
     </plugin>
-    <plugin name="PlayAVI" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="408b49c55d77559bcdf44fd8d5af385f0568f986" link="https://github.com/nicos5962/PlayAVI" icon="https://raw.githubusercontent.com/nicos5962/PlayAVI/main/HTML/EN/plugins/PlayAVI/html/images/icon.svg" url="https://github.com/nicos5962/PlayAVI/releases/download/v1.0/PlayAVI-1.0.zip">
+    <plugin name="PlayAVI" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="ea70b3dc28e75b5b430b688d612b43615c394988" link="https://github.com/nicos5962/PlayAVI" icon="https://raw.githubusercontent.com/nicos5962/PlayAVI/main/HTML/EN/plugins/PlayAVI/html/images/icon.svg" url="https://github.com/nicos5962/PlayAVI/releases/download/v1.1/PlayAVI-1.1.zip">
       <title lang="EN">Play AVI</title>
       <desc lang="EN">Play the audio of AVI files, with tags read by ffprobe, the Discogs release id as album id and scanner-safe registration</desc>
     </plugin>
