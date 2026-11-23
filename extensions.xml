@@ -48,6 +48,10 @@
       <title lang="EN">Play MP4</title>
       <desc lang="EN">Play the audio of MP4 files that hold video, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration. MP4 files without video stay with core</desc>
     </plugin>
+    <plugin name="PlayMPC" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="3f4f30fa562f0983967fed33e16e8879aca2330f" link="https://github.com/nicos5962/PlayMPC" icon="https://raw.githubusercontent.com/nicos5962/PlayMPC/main/HTML/EN/plugins/PlayMPC/html/images/icon.svg" url="https://github.com/nicos5962/PlayMPC/releases/download/v1.0/PlayMPC-1.0.zip">
+      <title lang="EN">Play Musepack</title>
+      <desc lang="EN">Play Musepack (MPC, SV7 and SV8) files with ffmpeg, with the Discogs release id as album id and scanner-safe registration</desc>
+    </plugin>
     <plugin name="PlayMPG" version="1.0" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="7006842fc5ec4d13564963d0b4a66b84af10663d" link="https://github.com/nicos5962/PlayMPG" icon="https://raw.githubusercontent.com/nicos5962/PlayMPG/main/HTML/EN/plugins/PlayMPG/html/images/icon.svg" url="https://github.com/nicos5962/PlayMPG/releases/download/v1.0/PlayMPG-1.0.zip">
       <title lang="EN">Play MPG</title>
       <desc lang="EN">Play the audio of MPEG program stream files, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration</desc>
