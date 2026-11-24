@@ -8,7 +8,7 @@
       <title lang="EN">Daphile</title>
       <desc lang="EN">The plugin for Daphile extras.</desc>
     </plugin>
-    <plugin name="Lyphile" version="1.1" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="1290071b89af82124c3bed3a79f1aa9a1e71c1f4" link="https://github.com/nicos5962/Lyphile" icon="https://raw.githubusercontent.com/nicos5962/Lyphile/main/HTML/EN/plugins/Lyphile/html/images/lyphile-icon.png" url="https://github.com/nicos5962/Lyphile/releases/download/v1.1/Lyphile-1.1.zip">
+    <plugin name="Lyphile" version="1.2" minTarget="9.0" maxTarget="*" category="tools" creator="nicos" sha="138488a382853c5684d2fbbc41a640b990cca023" link="https://github.com/nicos5962/Lyphile" icon="https://raw.githubusercontent.com/nicos5962/Lyphile/main/HTML/EN/plugins/Lyphile/html/images/lyphile-icon.png" url="https://github.com/nicos5962/Lyphile/releases/download/v1.2/Lyphile-1.2.zip">
       <title lang="EN">Lyphile</title>
       <desc lang="EN">Lyphile skin, based on the Default skin.</desc>
     </plugin>
